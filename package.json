@@ -1,0 +1,25 @@
+{
+  "name": "mamon",
+  "version": "1.0.0",
+  "description": "Website",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "serve": "browser-sync start --server --files '*.html' 'css/*.css' 'js/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaksimPotapov/Mamon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaksimPotapov/Mamon/issues"
+  },
+  "homepage": "https://github.com/MaksimPotapov/Mamon#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.13"
+  }
+}
